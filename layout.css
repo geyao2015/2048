@@ -1,0 +1,89 @@
+/**
+*   布局相关的css文档
+    元素位置，大小，内外边距等
+*/
+
+.container {
+    margin: 50px auto;
+    /*background-color:  red;*/
+    width: 370px;
+}
+
+/*header*/
+.header {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-left: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+.score-container {
+    float: right;
+    /*width: 120px;*/
+
+}
+
+.score, .best-score {
+    float: left;
+    margin: 17px 10px 0 0;
+
+    width: 70px;
+    height: 40px;
+
+    line-height: 40px;
+    text-align: center;
+
+    background-color: #ccc;
+    border-radius: 7px;
+}
+
+/*header-end*/
+
+/*sub-head*/
+.sub-header {
+    margin-bottom: 50px;
+    height: 50px;
+}
+.sub-title {
+    float: left;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.new-game {
+    float: right;
+    display: block;
+    width: 100px;
+    height: 30px;
+
+}
+
+/*sub-head-end*/
+
+/*section*/
+
+.body {
+    width: 360px;
+    height: 360px;
+    padding: 10px 0 0 10px;
+    border-radius: 7px;
+    background-color: pink;
+}
+
+.cell {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 10px 0;
+    background-color: #cccccc;
+    border-radius: 7px;
+    line-height: 80px;
+    text-align: center;
+}
+
+/*section-end*/
