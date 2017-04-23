@@ -2,6 +2,10 @@
   包括颜色，字体，边框等
 */
 
+body {
+    background: #faf8ef;
+}
+
 /*header*/
 .title {
     width: 140px;
@@ -35,6 +39,7 @@
     height: 40px;
     line-height: 40px;
 }
+
 .new-game {
     width: 123px;
     height: 40px;
@@ -44,10 +49,13 @@
     border-radius: 3px;
     color: #fff;
     font-weight: bold;
-
 }
-/*sub-header-end*/
 
+.new-game:after, .new-game:hover {
+    color: #FFFFFF;
+}
+
+/*sub-header-end*/
 
 /*body*/
 .body {
@@ -61,9 +69,16 @@
     height: 100px;
     background: rgba(238, 228, 218, 0.35);
     border-radius: 3px;
-    /*line-height: 106.25px;*/
     text-align: center;
     color: #776e65;
+}
+.view-cell {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #bbada0;
+    color: #FFFFFF;
+    border-radius: 3px;
 }
 
 /*body-end*/

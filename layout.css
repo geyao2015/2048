@@ -56,6 +56,7 @@
 /*section*/
 
 .body {
+    position: relative;
     width: 445px;
     height: 445px;
     padding: 15px;
